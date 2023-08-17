@@ -11,9 +11,6 @@ export class PlayersValidationPipe implements PipeTransform {
         `The param value ${metadata.data} should not be null`,
       );
     }
-
-    console.log(`value:  ${value}  metadata: ${metadata.data}`);
-
     return value;
   }
 }
